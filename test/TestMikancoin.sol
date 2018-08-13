@@ -36,7 +36,7 @@ contract TestMikancoin {
     MikanFarm farm = MikanFarm(DeployedAddresses.MikanFarm());  // Get the address and cast it
     Mikancoin mikan = farm.deployMikancoin(startTokens);
     
-    Assert.isFalse(mikan.transfer(0x0, 5), "Transfer to 0 address should fail"); // require() failes and therefore this will revert
+    Assert.isFalse(mikan.transfer(0x0, 5), "Transfer to 0 address should fail"); // require() fails and therefore this will revert
   }
   */
 }
