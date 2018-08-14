@@ -1,0 +1,33 @@
+{
+  "name": "mikancoin",
+  "version": "1.0.0",
+  "description": "Sample of smart contract unit testing in Solidity and JavaScript",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ann-kilzer/mikancoin.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "javascript",
+    "unit",
+    "testing"
+  ],
+  "author": "Ann Kilzer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ann-kilzer/mikancoin/issues"
+  },
+  "homepage": "https://github.com/ann-kilzer/mikancoin#readme"
+}
